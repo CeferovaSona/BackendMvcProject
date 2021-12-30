@@ -23,8 +23,15 @@ namespace ProjectBackend.Models
         public int TeacherId { get; set; }
        
         public virtual Teacher Teacher{ get; set; }
-        public ICollection <SocialMedia>SocialMedias { get; set; }
-        public ICollection<TeacherSkill> TeacherSkills { get; set; }
+        public int SkillId { get; set; }
+
+        public virtual Skill Skill { get; set; }
+        public int SocialMediaId { get; set; }
+
+        public virtual SocialMedia SocialMedia { get; set; }
+
+        public int TeachersSkillId { get; set; }
+
 
 
     } 

@@ -9,5 +9,9 @@ namespace ProjectBackend.Models
     {
         public int CategoryId { get; set; }
         public string Name { get; set; }
+        public ICollection<CoursesCategory> CourseCategories { get; set; }
+        public ICollection<EventsCategory> EventCategories { get; set; }
+        public ICollection<BlogsCategory> BlogCategories { get; set; }
+
     }
 }
