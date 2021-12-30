@@ -12,7 +12,11 @@ namespace ProjectBackend.DataAccessLayer
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-            public DbSet<Slider> Sliders { get; set; }
-            public DbSet<Welcome> Welcomes { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Welcome> Welcomes { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<TeacherDetail> TeacherDetails { get; set; }
+
+
     }
 }

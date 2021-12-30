@@ -8,12 +8,12 @@ namespace ProjectBackend.Models
 {
     public class Teacher
     {
-        public int Id { get; set; }
+        public int TeacherId { get; set; }
         public string Title{ get; set; }
         public string  FullName{ get; set; }
         public string Profession { get; set; }
-        public IFormFile Photo { get; set; }
-        public TeacherDetail Id { get; set; }
-
+        public string Photo { get; set; }
+        public int TeacherDetailId { get; set; }
+        public virtual TeacherDetail TeacherDetail { get; set; }
     }
 }
