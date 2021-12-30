@@ -1719,3 +1719,7 @@ C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\P
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\ProjectBackend.Views.pdb
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\ProjectBackend.csproj.CopyComplete
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\ProjectBackend.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Areas\AdminPanel\Views\_ViewImports.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs

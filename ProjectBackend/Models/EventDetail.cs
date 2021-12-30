@@ -16,7 +16,7 @@ namespace ProjectBackend.Models
 
         public virtual Event Event { get; set; }
 
-        public ICollection<CoursesCategory> CoursesCategories { get; set; }
+        public ICollection<EventsCategory> EventsCategories { get; set; }
 
         public ICollection<EventsSpiker> EventsSpikers{ get; set; }
 
