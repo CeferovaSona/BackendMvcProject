@@ -27,6 +27,7 @@ namespace ProjectBackend.Models
 
         public virtual CourseFeature CourseFeature { get; set; }
         public ICollection<CoursesCategory> CoursesCategories { get; set; }
+        public ICollection<CoursesPost> CoursesPosts { get; set; }
 
 
 

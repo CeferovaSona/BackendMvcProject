@@ -17,6 +17,8 @@ namespace ProjectBackend.Models
         public virtual Blog Blog { get; set; }
 
         public ICollection<BlogsCategory> BlogsCategories { get; set; }
+        public ICollection<BlogsPost> BlogsPosts { get; set; }
+
 
     }
 }

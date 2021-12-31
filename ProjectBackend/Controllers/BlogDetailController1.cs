@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace ProjectBackend.Controllers
 {
-    public class Teacher : Controller
+    public class BlogDetailController : Controller
     {
         private readonly AppDbContext _dbContext;
-        public Teacher(AppDbContext dbContext)
+        public BlogDetailController(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -19,6 +19,6 @@ namespace ProjectBackend.Controllers
             return View();
         }
 
-       
+
     }
 }

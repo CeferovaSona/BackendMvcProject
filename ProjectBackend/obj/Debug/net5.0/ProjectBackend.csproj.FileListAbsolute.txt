@@ -1710,8 +1710,6 @@ C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\R
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Signup\Index.cshtml.g.cs
-C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\TeacherDetail\Index.cshtml.g.cs
-C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Teacher\Index.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\ProjectBackend.RazorTargetAssemblyInfo.cache
@@ -1723,3 +1721,11 @@ C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\R
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Areas\AdminPanel\Views\_ViewImports.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Teacher\TeacherIndex.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\TeacherDetail\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\BlogDetail\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Event\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\EventDetail\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Course\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\CourseDetail\Index.cshtml.g.cs
