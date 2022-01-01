@@ -26,8 +26,9 @@ namespace ProjectBackend.Models
         public int SkillId { get; set; }
 
         public virtual Skill Skill { get; set; }
-        public int SocialMediaId { get; set; }
 
+        [ForeignKey("SocialMedia")]
+        public int SocialMediaId { get; set; }
         public virtual SocialMedia SocialMedia { get; set; }
 
         public int TeachersSkillId { get; set; }

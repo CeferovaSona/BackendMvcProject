@@ -7,7 +7,7 @@ namespace ProjectBackend.Models
 {
     public class TeachersSkill
     {
-        public int TeacherSkillId { get; set; }
+        public int TeachersSkillId { get; set; }
         public int SkillId { get; set; }
         public Skill Skill { get; set; }
         public int TeacherDetailId { get; set; }

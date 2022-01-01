@@ -24,12 +24,29 @@ namespace ProjectBackend.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var slider = await _dbContext.Sliders.SingleOrDefaultAsync();
-            var welcome = await _dbContext.Welcomes.SingleOrDefaultAsync();
+            var sliders = await _dbContext.Sliders.SingleOrDefaultAsync();
+            var welcomes = await _dbContext.Welcomes.SingleOrDefaultAsync();
+            var sliderImages = await _dbContext.SliderImages.ToListAsync();
+            var noticeVideos = await _dbContext.NoticeVideos.SingleOrDefaultAsync();
+            var noticeBoards= await _dbContext.NoticeBoards.ToListAsync();
+            var courses= await _dbContext.Courses.ToListAsync();
+            var events= await _dbContext.Events.ToListAsync();
+            var categories= await _dbContext.Categories.ToListAsync();
+            var courseDetails= await _dbContext.CourseDetails.ToListAsync();
+            var eventDetails= await _dbContext.EventDetails.ToListAsync();
 
             return View(new HomeViewModel {
-            Slider=slider,
-            Welcome=welcome
+            Slider=sliders,
+            Welcome=welcomes,
+            SliderImage =sliderImages,
+            NoticeVideo=noticeVideos,
+            NoticeBoard= noticeBoards,
+            Course=courses,
+            Event=events,
+            Category=categories,
+            CourseDetail=courseDetails,
+            EventDetail=eventDetails
+
             });
             
         }
