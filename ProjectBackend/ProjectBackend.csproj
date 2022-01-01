@@ -19,7 +19,6 @@
   <ItemGroup>
     <Folder Include="Areas\AdminPanel\Data\" />
     <Folder Include="Areas\AdminPanel\Models\" />
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

@@ -36,7 +36,6 @@ namespace ProjectBackend.DataAccessLayer
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Spiker> Spikers { get; set; }
         public DbSet<TeachersSkill> TeachersSkills { get; set; }
-        public DbSet<SliderImage> SliderImages { get; set; }
         public DbSet<NoticeVideo> NoticeVideos { get; set; }
         public DbSet<NoticeBoard> NoticeBoards { get; set; }
 

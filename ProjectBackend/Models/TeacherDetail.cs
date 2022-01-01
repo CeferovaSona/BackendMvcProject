@@ -9,7 +9,6 @@ namespace ProjectBackend.Models
     public class TeacherDetail
     {
         public int TeacherDetailId { get; set; }
-        public string Title{ get; set; }
         public string Degree { get; set; }
         public string Experience { get; set; }
         public string Hobbies { get; set; }

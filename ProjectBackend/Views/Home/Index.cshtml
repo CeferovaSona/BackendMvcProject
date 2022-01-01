@@ -7,9 +7,7 @@
 <!-- Background Area Start -->
 <section id="slider-container" class="slider-area two">
     <div class="slider-owl owl-theme owl-carousel">
-        <!-- Start Slingle Slide -->
-        <div class="single-slide item" style="background-image: url(~/img/slider/@homeViewModel.Slider.Image) ">
-            <!-- Start Slider Content -->
+        <div class="single-slide item" style="background-image: url(~/img/slider/@homeViewModel.Slider.Image)">
             <div class="slider-content-area">
                 <div class="container">
                     <div class="row">
@@ -17,59 +15,16 @@
                             <div class="slide-content-wrapper">
                                 <div class="slide-content text-center">
                                     @Html.Raw(homeViewModel.Slider.Title)
-                                    <p>I must explain to you how all this mistaken idea of denouncing pleasure and prsing pain was born and I will give you a complete account of the system  </p>
-                                    <a class="default-btn" href="about.html">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Start Slider Content -->
-        </div>
-        <!-- End Slingle Slide -->
-        <!-- Start Slingle Slide -->
-        <!--<div class="single-slide item" style="background-image: url(~/img/slider/homeViewModel.Slider.Image)">
-            <!-- Start Slider Content -->
-            <!--<div class="slider-content-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="slide-content-wrapper">
-                                <div class="slide-content text-center">  
-                                       @Html.Raw(homeViewModel.Slider.Title)
-                                   homeViewModel.Slider.Subtitle
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>gfda.......
-             Start Slider Content 
-        </div>-->
-         @*End Slingle Slide 
-         Start Slingle Slide*@ 
-        @*<div class="single-slide item" style="background-image: url(~/img/slider/homeViewModel.Slider.Image">
-             Start Slider Content 
-            <div class="slider-content-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="slide-content-wrapper">
-                                <div class="slide-content text-center">
-                                    @Html.Raw(homeViewModel.Slider.Title)
-                                    homeViewModel.Slider.Subtitle
+                                    <p>I must explain to you how all this mistaken idea of denouncing plasure and praising pain was born and I will give you a complete </p>
                                     <a class="default-btn" asp-controller="About">Learn more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>-->*@
-             @*Start Slider Content*@ 
+            </div>
         </div>
-         @*End Slingle Slide*@ 
-    </div>
+       
 </section>
 <!-- Background Area End -->
 <!-- About Start -->
@@ -80,7 +35,7 @@
                 <div class="about-content">
                     @Html.Raw(homeViewModel.Welcome.Title)
                     @homeViewModel.Welcome.Subtitle
-                    <p class="hidden-sm">I must explain to you how all this mistaken idea of denouncing pleure and prsing pain was born and I will give you a complete account of the system</p>
+                    <p class="hidden-sm">@homeViewModel.Welcome.Subtitle</p>
                     <a class="default-btn" asp-controller="About">view courses</a>
                 </div>
             </div>
@@ -116,16 +71,16 @@
                         </a>
                     </div>
                     <div class="course-content">
-                        <h3><a href="course-details.html">CSE ENGINEERING</a></h3>
+                        <h3><a asp-controller="CourseDetailController">CSE ENGINEERING</a></h3>
                         <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                        <a class="default-btn" href="course-details.html">read more</a>
+                        <a class="default-btn"asp-controller="CourseDetailController">read more</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="single-course">
                     <div class="course-img">
-                        <a href="course-details.html">
+                        <a asp-controller="CourseDetailController">
                             <img src="~/img/course/course2.jpg" alt="course">
                             <div class="course-hover">
                                 <i class="fa fa-link"></i>
@@ -135,14 +90,14 @@
                     <div class="course-content">
                         <h3><a href="course-details.html">political science</a></h3>
                         <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                        <a class="default-btn" href="course-details.html">read more</a>
+                        <a class="default-btn" asp-controller="CourseDetailContoller">read more</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 hidden-sm col-xs-12">
                 <div class="single-course">
                     <div class="course-img">
-                        <a href="course-details.html">
+                        <a asp-controller="CourseDetailController">
                             <img src="~/img/course/course3.jpg" alt="course">
                             <div class="course-hover">
                                 <i class="fa fa-link"></i>
@@ -150,7 +105,7 @@
                         </a>
                     </div>
                     <div class="course-content">
-                        <h3><a href="course-details.html">micro biology</a></h3>
+                        <h3><a asp-controller="CourseDetailController">micro biology</a></h3>
                         <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
                         <a class="default-btn" href="course-details.html">read more</a>
                     </div>
@@ -166,10 +121,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="notice-right-wrapper mb-25 pb-25">
-                    <h3>TAKE A VIDEO TOUR</h3>
+                  @Html.Raw(homeViewModel.NoticeVideo.Title1)
                     <div class="notice-video">
                         <div class="video-icon video-hover">
-                            <a class="video-popup" href="https://www.youtube.com/watch?v=to6Ghf8UL7o">
+                            <a class="video-popup" href="@homeViewModel.NoticeVideo.Link">
                                 <i class="zmdi zmdi-play"></i>
                             </a>
                         </div>
@@ -178,32 +133,18 @@
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="notice-left-wrapper">
-                    <h3>notice board</h3>
+                   @Html.Raw(homeViewModel.NoticeVideo.Title1)
                     <div class="notice-left">
                         <div class="single-notice-left mb-23 pb-20">
-                            <h4>5, June 2017</h4>
-                            <p>I must explain to you how all this mistaken idea of denouncing plasure and praising pain was born and I will give you a complete </p>
-                        </div>
-                        <div class="single-notice-left hidden-sm mb-23 pb-20">
-                            <h4>4, June 2017</h4>
-                            <p>I must explain to you how all this mistaken idea of denouncing plasure and praising pain was born and I will give you a complete </p>
-                        </div>
-                        <div class="single-notice-left pb-70">
-                            <h4>3, June 2017</h4>
-                            <p>I must explain to you how all this mistaken idea of denouncing plasure and praising pain was born and I will give you a complete </p>
-                        </div>
-                        <div class="single-notice-left mb-23 pb-20">
-                            <h4>5, June 2017</h4>
-                            <p>I must explain to you how all this mistaken idea of denouncing plasure and praising pain was born and I will give you a complete </p>
-                        </div>
-                        <div class="single-notice-left hidden-sm mb-23 pb-20">
-                            <h4>4, June 2017</h4>
-                            <p>I must explain to you how all this mistaken idea of denouncing plasure and praising pain was born and I will give you a complete </p>
-                        </div>
-                        <div class="single-notice-left pb-70">
-                            <h4>3, June 2017</h4>
-                            <p>I must explain to you how all this mistaken idea of denouncing plasure and praising pain was born and I will give you a complete </p>
-                        </div>
+                            @foreach (var item in homeViewModel.NoticeBoards)
+                            {    
+                                @Html.Raw(item.Date)
+                                @item.Text
+                            <div class="single-notice-left hidden-sm mb-23 pb-20">
+                                @Html.Raw(item.Date)
+                                @item.Text
+                            </div>
+                            }
                     </div>
                 </div>
             </div>
@@ -226,11 +167,11 @@
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="single-event mb-35">
                     <div class="event-img">
-                        <a href="event-details.html"><img src="~/img/event/event1.jpg" alt="event"></a>
+                        <a asp-controller="EventDetailController"><img src="~/img/event/event1.jpg" alt="event"></a>
                     </div>
                     <div class="event-content text-left">
                         <h3>20 June 2017</h3>
-                        <h4><a href="event-details.html">ADVANCE PHP WORKSHOP</a></h4>
+                        <h4><a asp-controller="EventDetailController">ADVANCE PHP WORKSHOP</a></h4>
                         <ul>
                             <li><i class="fa fa-clock-o"></i>9.00 AM - 4.45 PM</li>
                             <li><i class="fa fa-map-marker"></i>New Yourk City</li>
@@ -334,7 +275,7 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="single-blog">
                     <div class="blog-img">
-                        <a href="blog-details.html"><img src="~/img/blog/blog1.jpg" alt="blog"></a>
+                        <a asp-controller="BlogDetailController"><img src="~/img/blog/blog1.jpg" alt="blog"></a>
                         <div class="blog-hover">
                             <a href="blog-details.html"><i class="fa fa-link"></i></a>
                         </div>
@@ -344,8 +285,8 @@
                             <p>By Alex  /  June 20, 2017  /  <i class="fa fa-comments-o"></i> 4</p>
                         </div>
                         <div class="blog-bottom">
-                            <h2><a href="blog-details.html">I must explain to you how all this a mistaken idea </a></h2>
-                            <a href="blog-details.html">read more</a>
+                            <h2><a asp-controller="BlogDetailController">I must explain to you how all this a mistaken idea </a></h2>
+                            <a asp-controller="BlogDetailController">read more</a>
                         </div>
                     </div>
                 </div>
@@ -355,7 +296,7 @@
                     <div class="blog-img">
                         <a href="blog-details.html"><img src="~/img/blog/blog2.jpg" alt="blog"></a>
                         <div class="blog-hover">
-                            <a href="blog-details.html"><i class="fa fa-link"></i></a>
+                            <a asp-controller="BlogDetailController"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="blog-content">

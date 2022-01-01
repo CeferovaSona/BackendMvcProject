@@ -20,14 +20,11 @@ namespace ProjectBackend.Controllers
             _dbContext = dbContext;
         }
 
-       
-
         public async Task<IActionResult> Index()
         {
-            var sliders = await _dbContext.Sliders.SingleOrDefaultAsync();
-            var welcomes = await _dbContext.Welcomes.SingleOrDefaultAsync();
-            var sliderImages = await _dbContext.SliderImages.ToListAsync();
-            var noticeVideos = await _dbContext.NoticeVideos.SingleOrDefaultAsync();
+            var slider = await _dbContext.Sliders.SingleOrDefaultAsync();
+            var welcome = await _dbContext.Welcomes.SingleOrDefaultAsync();
+            var noticeVideo = await _dbContext.NoticeVideos.SingleOrDefaultAsync();
             var noticeBoards= await _dbContext.NoticeBoards.ToListAsync();
             var courses= await _dbContext.Courses.ToListAsync();
             var events= await _dbContext.Events.ToListAsync();
@@ -36,16 +33,15 @@ namespace ProjectBackend.Controllers
             var eventDetails= await _dbContext.EventDetails.ToListAsync();
 
             return View(new HomeViewModel {
-            Slider=sliders,
-            Welcome=welcomes,
-            SliderImage =sliderImages,
-            NoticeVideo=noticeVideos,
-            NoticeBoard= noticeBoards,
-            Course=courses,
-            Event=events,
-            Category=categories,
-            CourseDetail=courseDetails,
-            EventDetail=eventDetails
+            Slider=slider,
+            Welcome=welcome,
+            NoticeVideo=noticeVideo,
+            NoticeBoards= noticeBoards,
+            Courses=courses,
+            Events=events,
+            Categories=categories,
+            CourseDetails=courseDetails,
+            EventDetails=eventDetails
 
             });
             

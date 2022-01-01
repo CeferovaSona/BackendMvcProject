@@ -8,7 +8,6 @@ namespace ProjectBackend.Models
     public class NoticeBoard
     {
         public int NoticeBoardId{ get; set; }
-        public string Title { get; set; }
         public string Date { get; set; }
         public string Text { get; set; }
 

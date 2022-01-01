@@ -10,31 +10,30 @@ namespace ProjectBackend.ViewModels
     {
         public Slider Slider { get; set; }
         public Welcome Welcome { get; set; }
-        public List<Blog> Blog { get; set; }
-        public List<BlogDetail> BlogDetail { get; set; }
-        public List<BlogsCategory> BlogsCategory { get; set; }
-        public List<BlogsPost> BlogsPost { get; set; }
-        public List <Category> Category { get; set; }
-        public List<Course>Course { get; set; }
-        public List<CourseDetail> CourseDetail { get; set; }
-        public List<CourseFeature> CourseFeature { get; set; }
-        public List<CoursesCategory> CourseCategory { get; set; }
-        public List<CoursesPost> CoursesPost { get; set; }
-        public List<Event> Event { get; set; }
-        public List<EventDetail> EventDetail { get; set; }
-        public List<EventsCategory> EventCategory { get; set; }
-        public List<EventsPost> EventPost { get; set; }
-        public List<EventsSpiker> EventsSpiker { get; set; }
-        public List<Post> Post { get; set; }
-        public List<Skill> Skill { get; set; }
-        public List<SocialMedia> SocialMedia { get; set; }
-        public List<Spiker> Spiker { get; set; }
-        public List<Teacher> Teacher { get; set; }
-        public List<TeacherDetail> TeacherDetail { get; set; }
-        public List<TeachersSkill> TeachersSkill { get; set; }
-        public List<SliderImage> SliderImage { get; set; }
+        public List<Blog> Blogs { get; set; }
+        public List<BlogDetail> BlogDetails { get; set; }
+        public List<BlogsCategory> BlogsCategories { get; set; }
+        public List<BlogsPost> BlogsPosts { get; set; }
+        public List <Category> Categories { get; set; }
+        public List<Course>Courses { get; set; }
+        public List<CourseDetail> CourseDetails { get; set; }
+        public List<CourseFeature> CourseFeatures { get; set; }
+        public List<CoursesCategory> CourseCategories { get; set; }
+        public List<CoursesPost> CoursesPosts { get; set; }
+        public List<Event> Events { get; set; }
+        public List<EventDetail> EventDetails { get; set; }
+        public List<EventsCategory> EventCategories { get; set; }
+        public List<EventsPost> EventPosts { get; set; }
+        public List<EventsSpiker> EventsSpikers { get; set; }
+        public List<Post> Posts { get; set; }
+        public List<Skill> Skills { get; set; }
+        public List<SocialMedia> SocialMedias { get; set; }
+        public List<Spiker> Spikers { get; set; }
+        public List<Teacher> Teachers { get; set; }
+        public List<TeacherDetail> TeacherDetails { get; set; }
+        public List<TeachersSkill> TeachersSkills { get; set; }
         public NoticeVideo NoticeVideo{ get; set; }
-        public List<NoticeBoard> NoticeBoard { get; set; }
+        public List<NoticeBoard> NoticeBoards { get; set; }
 
 
 

@@ -1729,3 +1729,4 @@ C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\R
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\EventDetail\Index.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Course\Index.cshtml.g.cs
 C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\CourseDetail\Index.cshtml.g.cs
+C:\Users\Administrator\OneDrive\Desktop\Layihe\ProjectBackend\obj\Debug\net5.0\Razor\Views\Shared\Components\Post\Default.cshtml.g.cs
